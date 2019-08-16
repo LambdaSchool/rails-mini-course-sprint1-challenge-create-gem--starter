@@ -39,7 +39,9 @@ These are the steps you should take in order to create your MVP:
 4. Add the `unpublish` method which will update the `published_at` value to `nil`.
 5. Add a `published?` method to check if the `published_at` field is 'not `nil`'.
 6. Add the `publishable` gem to `awesome_blog` as a local gem.
+NOTE: `gem install --local path_to_gem/filename.gem`
 7. Mixin `publishable` to the `Quote` and `Post` models.
+`require`
 8. Use the rails console to test the new methods (from the `publishable` module) that should now be available.
 
 ## Stretch Problems
