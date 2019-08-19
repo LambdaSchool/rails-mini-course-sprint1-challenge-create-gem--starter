@@ -21,10 +21,10 @@ make a `publishable` gem that provides `publish`, `unpublish` and `pubished?` me
 
 ### Git Set Up
 
-- [ ] Fork the project into your GitHub user account
-- [ ] Clone the forked project into a directory on your machine
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
+- [x] Fork the project into your GitHub user account
+- [x] Clone the forked project into a directory on your machine
+- [x] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [x] You are now ready to build this project with your preferred IDE
 
 ## Minimum Viable Product
 
@@ -39,7 +39,9 @@ These are the steps you should take in order to create your MVP:
 4. Add the `unpublish` method which will update the `published_at` value to `nil`.
 5. Add a `published?` method to check if the `published_at` field is 'not `nil`'.
 6. Add the `publishable` gem to `awesome_blog` as a local gem.
+NOTE: `gem install --local path_to_gem/filename.gem`
 7. Mixin `publishable` to the `Quote` and `Post` models.
+`require`
 8. Use the rails console to test the new methods (from the `publishable` module) that should now be available.
 
 ## Stretch Problems
